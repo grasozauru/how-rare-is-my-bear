@@ -148,6 +148,12 @@ function App() {
                     </label>
                 </div>
 
+                {!isUrlSearch && (
+                    <span className='trust-market-number-alert'>
+                        It's NOT the number from trust market!
+                    </span>
+                )}
+
                 <BearInfo showBearInfo={showBearInfo} selectedBear={selectedBear} />
 
                 <CollectionStats possibleAttrsCount={possibleAttrsCount} />

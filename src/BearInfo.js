@@ -44,12 +44,6 @@ const BearInfo = ({ showBearInfo, selectedBear }) => {
                         <td>{selectedBear.cap}</td>
                         <td>{selectedBear.cap_rarity}</td>
                     </tr>
-                    <tr>
-                        <th>Drop Chance</th>
-                        <td colSpan='2' className='drop-chance'>
-                            {selectedBear.bear_drop_chance}%
-                        </td>
-                    </tr>
                 </tbody>
             </table>
         </div>
